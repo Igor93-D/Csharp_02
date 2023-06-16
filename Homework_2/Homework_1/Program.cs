@@ -5,10 +5,10 @@
 
 Console.WriteLine("Введите число");
 int number = Convert.ToInt32(Console.ReadLine());
-int result = (number%100)/10;
-if (number/100>0)
+int result = (number % 100) / 10;
+if (number / 100 > 0)
 {
-   Console.WriteLine(result); 
+    Console.WriteLine(result);
 }
 else
 {
